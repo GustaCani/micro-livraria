@@ -19,7 +19,29 @@
             </div>
         </section>
         <div class="box cta">
-            <p class="has-text-centered">Uma simples livraria utilizando microservices</p>
+            <div style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                padding: 10px;
+                ">
+
+                <div style="position: absolute; left: 10px;">
+                    <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Buscar..."
+                    style="padding: 5px;"
+                    />
+                    <button onclick="buscarLivros()">Buscar</button>
+                </div>
+
+                <h1 style="margin: 0;">
+                    Uma simples livraria utilizando microservices
+                </h1>
+
+            </div>
         </div>
         <section class="container">
             <div class="columns books"></div>
