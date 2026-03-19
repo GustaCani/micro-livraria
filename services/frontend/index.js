@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .then((data) => {
             if (data) {
-                todosOsLivros = data;
                 data.forEach((book) => {
                     books.appendChild(newBook(book));
                 });
